@@ -1,0 +1,14 @@
+
+[font]
+size = 15
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+
+[window]
+decorations = "none"
+
+[window.padding]
+x = 7
+y = 0
+
