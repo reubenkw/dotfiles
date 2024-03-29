@@ -1,4 +1,4 @@
-# ~/.bashrc: executed by bash(1) for non-login shells.
+#j~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
@@ -10,6 +10,7 @@ esac
 
 export PATH="$PATH:/opt/nvim-linux64/bin"
 alias matlab="/usr/local/MATLAB/R2024a/bin/matlab"
+alias v="nvim"
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
