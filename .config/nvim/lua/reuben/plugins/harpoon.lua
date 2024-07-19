@@ -5,6 +5,14 @@ return {
 	config = function()
 		require("harpoon"):setup()
 	end,
+	opts = {
+		menu = {
+			width = vim.api.nvim_win_get_width(0) - 4,
+		},
+		settings = {
+			save_on_toggle = true,
+		},
+	},
 	keys = {
 		{ "<leader>A", function() require("harpoon"):list():add() end, desc = "harpoon file", },
 		{ "<leader>a", function() local harpoon = require("harpoon") harpoon.ui:toggle_quick_menu(harpoon:list()) end, desc = "harpoon quick menu", },
