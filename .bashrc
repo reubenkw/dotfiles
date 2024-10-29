@@ -9,6 +9,7 @@ case $- in
 esac
 
 export PATH="$PATH:/opt/nvim-linux64/bin"
+export PATH="$HOME/.cargo/bin:$PATH"
 alias matlab="/usr/local/MATLAB/R2024a/bin/matlab"
 alias v="nvim"
 
@@ -121,5 +122,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-. "$HOME/.cargo/env"
+# . "$HOME/.cargo/env"
 source ~/.bash_completion/alacritty

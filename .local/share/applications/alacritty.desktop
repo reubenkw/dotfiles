@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Alacritty
+Comment=A fast terminal emulator
+Exec=/home/reuben/.cargo/bin/alacritty
+Terminal=false
+Type=Application
+Categories=Terminal;Utility;
+Icon=/home/reuben/.local/share/icons/alacritty/alacritty.svg
+

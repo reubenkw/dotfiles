@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Teams for Linux
+Comment=Unofficial Microsoft Teams client for Linux
+Exec=/usr/bin/teams-for-linux
+Terminal=false
+Type=Application
+Categories=Network;Chat;
+Icon=/home/reuben/.local/share/icons/microsoft/teams.png
+

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Arduino IDE
+Comment=Arduino IDE Nightly Build
+Exec=/opt/arduino-ide/arduino-ide_nightly-20240925_Linux_64bit.AppImage
+Terminal=false
+Type=Application
+Categories=Development;IDE;
+Icon=arduino-ide
+
