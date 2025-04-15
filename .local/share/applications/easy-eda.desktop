@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=EasyEDA
+Comment=PCB Design Online
+Exec=/usr/bin/easyeda-pro/easyeda-pro
+Terminal=false
+Type=Application
+Categories=Utility;
+Icon=/usr/bin/easyeda-pro/icon/icon_256x256.png
+

@@ -9,7 +9,9 @@ case $- in
 esac
 
 export PATH="$PATH:/opt/nvim-linux64/bin"
+export PICO_SDK_PATH="/home/reuben/dev/percy/Percy_Firmware/pico-sdk"
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$PATH:/bin/arm-none-eabi-gcc"
 alias matlab="/usr/local/MATLAB/R2024a/bin/matlab"
 alias v="nvim"
 
@@ -122,5 +124,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-# . "$HOME/.cargo/env"
+source $HOME/.cargo/env
 source ~/.bash_completion/alacritty
+
+export STM32_PRG_PATH=/home/reuben/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin
