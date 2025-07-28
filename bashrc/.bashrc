@@ -12,6 +12,10 @@ export PATH="$PATH:/opt/nvim-linux64/bin"
 alias matlab="/usr/local/MATLAB/R2024a/bin/matlab"
 alias v="nvim"
 
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
 HISTCONTROL=ignoreboth

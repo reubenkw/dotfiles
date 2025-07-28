@@ -1,4 +1,4 @@
-live_config_reload = true
+# live_config_reload = true
 
 [bell]
 animation = "EaseOutExpo"
@@ -78,11 +78,11 @@ mouse = "Middle"
 [selection]
 semantic_escape_chars = ",│`|:\"' ()[]{}<>"
 
-[shell]
+[terminal.shell]
 program = "/bin/bash"
 
 [window]
-decorations = "none"
+# decorations = "none"
 dynamic_title = true
 option_as_alt = "Both"
 startup_mode = "Maximized"
