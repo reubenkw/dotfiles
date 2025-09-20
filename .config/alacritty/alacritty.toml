@@ -1,4 +1,3 @@
-
 [bell]
 animation = "EaseOutExpo"
 duration = 0
@@ -81,7 +80,7 @@ semantic_escape_chars = ",│`|:\"' ()[]{}<>"
 program = "/bin/bash"
 
 [window]
-decorations = "none"
+# decorations = "none"
 dynamic_title = true
 option_as_alt = "Both"
 startup_mode = "Maximized"
