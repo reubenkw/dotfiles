@@ -9,10 +9,9 @@ case $- in
 esac
 
 export PATH="$PATH:/opt/nvim-linux64/bin"
-export PICO_SDK_PATH="/home/reuben/dev/percy/Percy_Firmware/pico-sdk"
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$PATH:/bin/arm-none-eabi-gcc"
-alias matlab="/usr/local/MATLAB/R2024a/bin/matlab"
+export PATH="$HOME/.local/share/bob/nvim-bin:$PATH"
 alias v="nvim"
 
 export BASH_SILENCE_DEPRECATION_WARNING=1
